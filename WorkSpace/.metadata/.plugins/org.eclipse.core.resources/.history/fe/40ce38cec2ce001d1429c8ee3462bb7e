@@ -1,0 +1,12 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int 국어, 수학, 영어, 과학, 체육;
+		int 국어 = 50;
+		int 수학 = 100;
+		int 영어 = 80;
+		int 과학 = 75;
+		int 체육 = 30;
+		System.out.println(국어);
+	}
+}

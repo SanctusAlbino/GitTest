@@ -1,0 +1,9 @@
+package pack08_scanner;
+
+public class Ex02_Scanner {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("dd");
+		String inputData = sc.nextLine();
+	}
+}

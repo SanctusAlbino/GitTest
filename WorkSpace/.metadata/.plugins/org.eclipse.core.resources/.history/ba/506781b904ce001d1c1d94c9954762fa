@@ -1,0 +1,7 @@
+package pack08_casting;
+
+public class Ex02_Casting {
+	public static void main(String[] args) {
+		
+	}
+}

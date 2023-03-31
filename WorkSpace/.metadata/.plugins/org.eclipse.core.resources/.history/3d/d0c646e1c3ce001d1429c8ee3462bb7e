@@ -1,0 +1,17 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int kor, mat, eng, mor, spo ;
+		kor = 50;
+		mat = 100;
+		eng = 80;
+		mor= 75;
+		spo= 30;
+		System.out.println(kor);
+		System.out.println(mat);
+		// 형변환(Casting) : 서로 다른 타입의 변수를 변환시켜 사용함.
+		// ex) int<-> double, String <-> int
+		int ivalue = 10;
+		double dvalue = ivalue;
+	}
+}

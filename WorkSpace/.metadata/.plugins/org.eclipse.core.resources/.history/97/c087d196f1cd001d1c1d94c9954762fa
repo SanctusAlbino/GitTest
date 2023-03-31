@@ -1,0 +1,9 @@
+package test01_Variable;
+
+public class kgh {
+	public static void main(String[] args) {
+		int num1 ;
+		num1 = 1 ;
+		System.out.println(int);
+	}
+}

@@ -1,0 +1,13 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int kor, num2, num3, num4, num5;
+		kor = 50;
+		mat= 100;
+		eng = 80;
+		mor= 75;
+		spo= 30;
+		System.out.println(kor);
+		System.out.println(mat);
+	}
+}
