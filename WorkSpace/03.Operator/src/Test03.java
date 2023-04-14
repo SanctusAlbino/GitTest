@@ -7,6 +7,10 @@ public class Test03 {
 		Scanner sc = new Scanner(System.in);
 		String Data1 = sc.nextLine();
 		
+		//Method (메소드) ==미리 만들어놓은 기능을 호출해서 사용한다==?
+		//sc.nextLine()하고 나서 결과는 항상 String==sc.nextLine==String
+		//String result=Integer.parselnt(sc.nextLine())%2==1 ? "홀수":"짝수";
+		
 		//콘솔창을 통해서 입력받아온 String데이터를 int로 바꾼후 해당 숫자가 짝수인지 또는 홀수인지를 판단하여
 		//콘솔창에 출력하세요 1=>홀수, 2=>짝수
 		

@@ -1,0 +1,13 @@
+package pack02_array;
+
+public class Ex02_Array {
+	public static void main(String[] args) {
+		//1. 10의 크기를 가진 int형 배열을 만들고 값을 10~100까지 할당하고 출력해보기.
+		//출력 결과: 배열 이름 [인덱스] 10...100
+		int score1=0, score2=0;
+		int[] scoreArray = new int [10];
+		scoreArray [0]=10;
+		for(int i= 0; i<=10; i++)
+			System.out.println(scoreArray[i]);
+	}
+}

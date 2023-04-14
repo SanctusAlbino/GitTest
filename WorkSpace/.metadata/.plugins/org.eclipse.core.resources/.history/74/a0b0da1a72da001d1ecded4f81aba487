@@ -1,0 +1,10 @@
+package pack03_constructor;
+
+public class Test01_Member {
+	String name="김김김";
+	String id= "kkk";
+	int pw= 1234;
+	int ord= 26;
+	
+	
+}

@@ -1,0 +1,25 @@
+package pack03_array2;
+
+import java.util.Scanner;
+
+public class Ex04_Mbti {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int [] mbtiResult = new int [4];
+		String [][] mbtiWord = {
+				{"I","E"},{"N","S"},{"F","T"},{"J","P"}	
+		};
+		System.out.println("나는 지금 우리반 사람들과 노래방에 가서 노래부를 수 있다. 1.y 2.n");
+		mbtiResult[0] = Integer.parseInt(sc.nextLine());
+		System.out.println("나는 한문철TV문제를 잘 맞춘다. 1.y 2.n");
+		mbtiResult[1] = Integer.parseInt(sc.nextLine());
+		System.out.println("나는 월드컵 16강 확정지을 때 울컥했다. 1.y 2.n");
+		mbtiResult[2] = Integer.parseInt(sc.nextLine());
+		System.out.println("나는 여행 당일날 계획을 변경하면 스트레스 받는다. 1.y 2.n");
+		mbtiResult[3] = Integer.parseInt(sc.nextLine());
+		String result = "";
+		for(int i= 0; i<mbtiResult.length; i++) {
+			result+= mbtiWord[i][mbtiResult[i]-1];
+		} System.out.println("내 MBTI는 : "+result);
+	}
+}

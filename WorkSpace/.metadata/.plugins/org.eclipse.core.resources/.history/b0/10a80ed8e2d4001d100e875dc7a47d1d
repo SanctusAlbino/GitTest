@@ -1,0 +1,38 @@
+package pack06_game;
+
+import java.util.Scanner;
+
+public class project_02 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("국어점수를 입력하세요");
+		
+		while (true) {
+			int kor = Integer.parseInt(sc.nextLine());
+			if (kor>100||kor<0) {
+				System.out.println("다시입력하세요");
+			}else {
+				System.out.println("영어점수를 입력하세요");
+			}
+			int eng = Integer.parseInt(sc.nextLine());
+			if (eng>100||eng<0) {
+				System.out.println("다시입력하세요");
+			}else {
+				System.out.println("수학점수를 입력하세요");
+			}
+				int mat = Integer.parseInt(sc.nextLine());
+			if (mat>100||mat<0) {
+				System.out.println("다시입력하세요");
+				
+			}
+			
+		
+			
+		}
+		
+			
+		
+		
+		
+	}
+}

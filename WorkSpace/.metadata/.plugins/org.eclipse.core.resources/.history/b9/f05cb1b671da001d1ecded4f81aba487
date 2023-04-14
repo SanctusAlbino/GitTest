@@ -1,0 +1,8 @@
+package pack03_constructor;
+
+public class Test01_memberMain {
+	public static void main(String[] args) {
+		Test01 te = new Test01(null, null, 0, 0)
+				
+	}
+}

@@ -1,0 +1,10 @@
+package pack02_trycatch;
+
+public class Test01_TryCatch {
+	public static void main(String[] args) {
+		//배열의 랜덤한 공간에 숫자 숨기기 게임.
+		//기존로직은 그대로 사용하면 됨.
+		// 단, 사용자의 입력은 자유로운데 잘못입력시 "잘못입력입니다. 숫자범위 ?~?까지만 입력해주세요"
+		//가 나오고 프로그램은 강제로 종료되는 경우가 없다.(게임 끝까지)
+	}
+}

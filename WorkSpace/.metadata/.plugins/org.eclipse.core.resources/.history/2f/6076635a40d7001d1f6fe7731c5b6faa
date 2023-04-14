@@ -1,0 +1,12 @@
+package pack02_array;
+
+public class Ex01_Array {
+	public static void main(String[] args) {
+		//배열이란?
+		//자료형 변수를 생성하고 사용할때 주로 쓰임
+		//규칙 : "동일한" 데이터 타입을 묶어서 사용하게 하며 정해진 수만큼 저장 처리하는
+		//"객체"-> 한번 만든 크기는 다시 바꾸는게 불편하다.
+		// 형태 dataType[] name = new dataType[size];
+		// 		데이터타입[] 배열이름 = new 데이터타입[크기];
+	}
+}
